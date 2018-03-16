@@ -1,4 +1,4 @@
-import { dateToSeconds } from '../src/person.js';
+import { dateToSeconds } from '../src/age-calculator.js';
 
 const secondsInMonth = 2628000;
 const secondsInYear = 31540000;
