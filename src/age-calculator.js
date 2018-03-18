@@ -5,6 +5,7 @@ const secondsInDay = 86400;
 export function dateToSeconds(year, month, day) {
 
   let dateInSeconds = (year*secondsInYear) + (month*secondsInMonth) + (day*secondsInDay);
+
   return dateInSeconds;
 }
 
