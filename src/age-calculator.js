@@ -9,5 +9,10 @@ export function dateToSeconds(year, month, day) {
 }
 
 export function differenceBetweenDates (dateOne, dateTwo) {
+  let firstDate = new Date(dateOne);
+  let secondDate = new Date(dateTwo);
 
+  let dateDifference = (secondDate - firstDate);
+
+  return dateDifference;
 }

@@ -1,6 +1,6 @@
 1. First, the app should be able to convert any given date into seconds.
 
-  Example input: 03/16/2018
+  Example input: 03-16-2018
   Example Output:
 
 
